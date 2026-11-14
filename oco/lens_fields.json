@@ -1,0 +1,6 @@
+{"id":"conversation/turns/after","lens":"conversation","of_table":"turns","name":"after","kind":"string","needed":false,"ordinal":5}
+{"id":"conversation/turns/at","lens":"conversation","of_table":"turns","name":"at","kind":"string","needed":false,"ordinal":2}
+{"id":"conversation/turns/by","lens":"conversation","of_table":"turns","name":"by","kind":"string","needed":true,"ordinal":3,"allowed":"the author, the agent"}
+{"id":"conversation/turns/id","lens":"conversation","of_table":"turns","name":"id","kind":"string","needed":true,"ordinal":1}
+{"id":"conversation/turns/text","lens":"conversation","of_table":"turns","name":"text","kind":"string","needed":true,"ordinal":6}
+{"id":"conversation/turns/transcript","lens":"conversation","of_table":"turns","name":"transcript","kind":"string","needed":false,"ordinal":4}

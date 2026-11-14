@@ -1,0 +1,26 @@
+# This repository's mark: how it fits the Open Commons Observatory's picture.
+schema = 1
+
+[project]
+id = "marshall-oco/conversation"
+name = "The conversation: what the author and the agent said, as it was said"
+kind = "research"
+parent = "open-commons-observatory"
+
+[exports]
+backlog = "oco/backlog.json"
+milestones = "oco/milestones.json"
+session_log = "oco/session_log.json"
+glimpses = "oco/glimpses.json"
+turns = "oco/turns.json"
+lens_parts = "oco/lens_parts.json"
+lens_relations = "oco/lens_relations.json"
+lens_entries = "oco/lens_entries.json"
+lens_fields = "oco/lens_fields.json"
+lens_tables = "oco/lens_tables.json"
+lenses = "oco/lenses.json"
+decisions = "oco/decisions.json"
+problems = "oco/problems.json"
+activity = "oco/gathered/activity.json@oco-data"
+releases = "oco/gathered/releases.json@oco-data"
+ci = "oco/gathered/ci.json@oco-data"
