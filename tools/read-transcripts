@@ -1,0 +1,43 @@
+#!/bin/sh
+# read-transcripts DIR TURNS - the way in for the conversation: reads the transcripts kept in DIR that the
+# place has not read yet, and prints the turns to add to TURNS (the place's oco/turns.json), one row to a
+# line. It is run where the transcripts are kept - an agent's sandbox - and what it prints is added in
+# the place, where the place's own check says whether anything to be kept out is showing.
+#
+#   - a transcript is read once: one whose name a turn already carries is passed over
+#   - a turn is who spoke, when, and the words: the text of a reply, without its thinking or its tools
+#   - the seam between two transcripts repeats a turn - each holds the reply during which it was cut: a
+#     turn by the same speaker at the same moment as one already there, or already read, is not added
+#   - a turn of the author's that was entered as it was said, before its transcript was kept, is joined
+#     and not added again: taken in order, where the words begin alike
+#   - each turn follows the one before it; the first follows the last turn read before
+set -eu
+dir=$1 turns=$2 jq=${JQ:-jq} tmp=$(mktemp -d)
+have=$("$jq" -r '.transcript // empty' "$turns" | sort -u)
+for file in "$dir"/*.txt; do
+    name=$(basename "$file" .txt)
+    [ "$name" = journal ] && continue
+    echo "$have" | grep -qxF "$name" && continue
+    awk -v t="$tmp/$name" 'BEGIN { n = 0 } /^(Human|Assistant):$/ { who = ($0 == "Human:") ? "the author" : "the agent"; getline; if ($0 == "Content:") { n++; out = sprintf("%s-%04d.json", t, n); print who > (out ".who"); next } } out { print > out }' "$file"
+    for part in "$tmp/$name"-*.json; do
+        [ -f "$part" ] || continue
+        "$jq" -c --arg by "$(cat "$part.who")" --arg t "$name" '{at: (.[0].start_timestamp // ""), by: $by, transcript: $t, text: ([.[] | select(.type == "text") | .text] | join("\n\n"))} | select(.text != "")' "$part" 2>/dev/null || true
+    done
+done > "$tmp/read.jsonl"
+"$jq" -c -n --slurpfile have "$turns" --slurpfile read "$tmp/read.jsonl" '
+  def begins: ascii_downcase | gsub("[^a-z0-9]"; "") | .[0:30];
+  ($have | map(select((.transcript // "") != ""))) as $kept
+  | ($kept | map({key: (.by + " " + .at), value: .id}) | from_entries) as $known
+  | ($kept | map(.after // "")) as $followed
+  | ($have | map(select((.transcript // "") == "" and (.id as $id | $followed | index($id) | not))) | sort_by(.at)) as $entered
+  | ($kept | map(.id | ltrimstr("turn-") | tonumber? // 0) | max // 0) as $last
+  | reduce ($read | sort_by(.at)[]) as $t ({prev: ("turn-" + ($last | tostring)), n: $last, q: 0, seen: {}, rows: []};
+      ($t.by + " " + $t.at) as $moment
+      | if $known[$moment] then .prev = $known[$moment]
+        elif .seen[$moment] then .
+        elif $t.by == "the author" and .q < ($entered | length) and ($entered[.q].text | begins) == ($t.text | begins)
+          then .seen[$moment] = true | .prev = $entered[.q].id | .q += 1
+        else .n += 1 | ("turn-" + (.n | tostring)) as $id | .seen[$moment] = true
+             | .rows += [{id: $id, at: $t.at, by: $t.by, transcript: $t.transcript, after: .prev, text: $t.text}] | .prev = $id end)
+  | .rows[]'
+rm -rf "$tmp"
