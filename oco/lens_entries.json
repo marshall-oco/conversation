@@ -1,1 +1,1 @@
-{"id":"conversation/turn","lens":"conversation","entry":"turn","fills":"turns","asks":"by, text, after","says":"A turn of the conversation: who spoke, and what was said, after which turn.","supplies":"at today new"}
+{"id":"conversation/turn","lens":"conversation","entry":"turn","fills":"turns","asks":"by, text, after","says":"A turn of the conversation: who spoke, and what was said, after which turn.","supplies":"at now new"}
