@@ -27,3 +27,4 @@
 {"id":"g-20261115-103028","at":"2026-11-15T10:30:28Z","by":"claude","kind":"fix","summary":"a reply kept twice is kept once: the turn after it follows the first","touches":"turns:turn-2882","where":"open-commons-observatory/ecosystem/idea:03-the-whole-is-discovered"}
 {"id":"g-20261115-103233","at":"2026-11-15T10:32:33Z","by":"claude","kind":"fix","summary":"the seam between transcripts repeats a turn: kept once; the way in is kept here","touches":"turns:turn-2921","where":"open-commons-observatory/ecosystem/idea:03-the-whole-is-discovered"}
 {"id":"g-20261115-113438","at":"2026-11-15T11:34:38Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: continue","touches":"turns:turn-2026-11-15-continue-9"}
+{"id":"g-20261115-120957","at":"2026-11-15T12:09:57Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: continue","touches":"turns:turn-2026-11-15-continue-10"}
