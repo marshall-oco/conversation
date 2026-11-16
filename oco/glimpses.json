@@ -61,3 +61,4 @@
 {"id":"g-20261116-160055","at":"2026-11-16T16:00:55Z","by":"claude","kind":"chore","summary":"a mark: what the gatherer writes is said where it writes it - no longer named here"}
 {"id":"g-20261116-161107","at":"2026-11-16T16:11:07Z","by":"claude","kind":"chore","summary":"a caller: what the gatherer writes is said where it writes it, not here"}
 {"id":"g-20261116-162523","at":"2026-11-16T16:25:23Z","by":"claude","kind":"docs","summary":"a turn: turn 2026 11 16 continue 30","touches":"turns:turn-2026-11-16-continue-30","where":"turns:turn-2026-11-16-continue-29 open-commons-observatory/ecosystem/reflections:2026-11-16-what-saying-once-showed turns:turn-2026-11-16-continue-30"}
+{"id":"g-20261116-170752","at":"2026-11-16T17:07:52Z","by":"claude","kind":"docs","summary":"a turn: turn 2026 11 16 continue 31","touches":"turns:turn-2026-11-16-continue-31","where":"turns:turn-2026-11-16-continue-30 turns:turn-2026-11-16-continue-31"}
