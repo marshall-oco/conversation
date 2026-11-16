@@ -56,3 +56,4 @@
 {"id":"g-20261116-115944","at":"2026-11-16T11:59:44Z","by":"claude","kind":"docs","summary":"a turn: turn 2026 11 16 continue 26","touches":"turns:turn-2026-11-16-continue-26","where":"turns:turn-2026-11-16-continue-25 turns:turn-2026-11-16-continue-26"}
 {"id":"g-20261116-131046","at":"2026-11-16T13:10:46Z","by":"claude","kind":"docs","summary":"a turn: turn 2026 11 16 continue 27","touches":"turns:turn-2026-11-16-continue-27","where":"turns:turn-2026-11-16-continue-26 turns:turn-2026-11-16-continue-27"}
 {"id":"g-20261116-142638","at":"2026-11-16T14:26:38Z","by":"claude","kind":"docs","summary":"a turn: turn 2026 11 16 continue 28","touches":"turns:turn-2026-11-16-continue-28","where":"turns:turn-2026-11-16-continue-27 turns:turn-2026-11-16-continue-28"}
+{"id":"g-20261116-145400","at":"2026-11-16T14:54:00Z","by":"claude","kind":"chore","summary":"a mark: the latest runs are observed, as runs - no longer gathered here"}
