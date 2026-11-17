@@ -75,3 +75,4 @@
 {"id":"g-20261117-001846","at":"2026-11-17T00:18:46Z","by":"claude","kind":"docs","summary":"a turn entered: a face for linux-phone, drawn in CI","touches":"turns:turn-2026-11-17-a-face-for-linux-phone"}
 {"id":"g-20261117-002412","at":"2026-11-17T00:24:12Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: yes: linux-phone-oco","touches":"turns:turn-2026-11-17-tad-is-the-shared-database turns:turn-2026-11-17-this-org"}
 {"id":"g-20261117-005514","at":"2026-11-17T00:55:14Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: support status read off the suite's results","touches":"turns:turn-2026-11-17-support-status-first"}
+{"id":"g-20261117-010931","at":"2026-11-17T01:09:31Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: a prompt for the bring-up session","touches":"turns:turn-2026-11-17-a-session-for-the-core"}
