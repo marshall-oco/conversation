@@ -77,3 +77,4 @@
 {"id":"g-20261117-005514","at":"2026-11-17T00:55:14Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: support status read off the suite's results","touches":"turns:turn-2026-11-17-support-status-first"}
 {"id":"g-20261117-010931","at":"2026-11-17T01:09:31Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: a prompt for the bring-up session","touches":"turns:turn-2026-11-17-a-session-for-the-core"}
 {"id":"g-20261117-012202","at":"2026-11-17T01:22:02Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: orchestrating agents: research first","touches":"turns:turn-2026-11-17-orchestration"}
+{"id":"g-20261117-012715","at":"2026-11-17T01:27:15Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: ArtCraft read as a whole organisation","touches":"turns:turn-2026-11-17-everything-not-only-parallel"}
