@@ -116,3 +116,4 @@
 {"id":"g-20261117-130645","at":"2026-11-17T13:06:45Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: the SIM is out: checks to skip, not fail","touches":"turns:turn-2026-11-17-sim-removed"}
 {"id":"g-20261117-135528","at":"2026-11-17T13:55:28Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: lpoco-health: researched and built by a new session","touches":"turns:turn-2026-11-17-lpoco-health"}
 {"id":"g-20261117-140040","at":"2026-11-17T14:00:40Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: postmarketOS upstream: to the lpoco-health research","touches":"turns:turn-2026-11-17-pmos-upstream"}
+{"id":"g-20261117-142356","at":"2026-11-17T14:23:56Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: ikb: a command for adding to a knowledge base","touches":"turns:turn-2026-11-17-ikb-cli"}
