@@ -103,3 +103,4 @@
 {"id":"g-20261117-101102","at":"2026-11-17T10:11:02Z","by":"claude","kind":"docs","summary":"a turn entered: the phone keeper, handed over","touches":"turns:turn-2026-11-17-keeper-handover"}
 {"id":"g-20261117-101520","at":"2026-11-17T10:15:20Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: idealkb answered in its own session","touches":"turns:turn-2026-11-17-pressed-there"}
 {"id":"g-20261117-101902","at":"2026-11-17T10:19:02Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: the phone queue's order: deep sleep first","touches":"turns:turn-2026-11-17-what-next-on-the-phone"}
+{"id":"g-20261117-104450","at":"2026-11-17T10:44:50Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: tad stays a database; idealkb uses it","touches":"turns:turn-2026-11-17-tad-stays-a-database"}
