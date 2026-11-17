@@ -84,3 +84,4 @@
 {"id":"g-20261117-014857","at":"2026-11-17T01:48:57Z","by":"conveyor","kind":"docs","summary":"a turn entered as it was said: hand over to orchestration","touches":"turns:turn-2026-11-17-hand-over"}
 {"id":"g-20261117-020019","at":"2026-11-17T02:00:19Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: ocoeco's role, and an ocotad","touches":"turns:turn-2026-11-17-ocotad"}
 {"id":"g-20261117-020336","at":"2026-11-17T02:03:36Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: tad named queries: to orchestration","touches":"turns:turn-2026-11-17-tad-not-ocotad"}
+{"id":"g-20261117-020652","at":"2026-11-17T02:06:52Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: retiring ocoeco: weighed","touches":"turns:turn-2026-11-17-retire-ocoeco"}
