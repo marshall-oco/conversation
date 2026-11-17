@@ -91,3 +91,4 @@
 {"id":"g-20261117-041246","at":"2026-11-17T04:12:46Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: the Sxmo profile, prepared for upstream","touches":"turns:turn-2026-11-17-sxmo-upstream"}
 {"id":"g-20261117-041808","at":"2026-11-17T04:18:08Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: the Sxmo profile sent upstream","touches":"turns:turn-2026-11-17-sign-as-grenudi"}
 {"id":"g-20261117-042109","at":"2026-11-17T04:21:09Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: the list refused HTML: git send-email prepared","touches":"turns:turn-2026-11-17-the-autoreply"}
+{"id":"g-20261117-042916","at":"2026-11-17T04:29:16Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: the Sxmo profile is on the list","touches":"turns:turn-2026-11-17-sent-ok"}
