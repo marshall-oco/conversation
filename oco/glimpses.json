@@ -118,3 +118,4 @@
 {"id":"g-20261117-140040","at":"2026-11-17T14:00:40Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: postmarketOS upstream: to the lpoco-health research","touches":"turns:turn-2026-11-17-pmos-upstream"}
 {"id":"g-20261117-142356","at":"2026-11-17T14:23:56Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: ikb: a command for adding to a knowledge base","touches":"turns:turn-2026-11-17-ikb-cli"}
 {"id":"g-20261117-144332","at":"2026-11-17T14:43:32Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: upstream records: to the ikb lane","touches":"turns:turn-2026-11-17-upstream-notion"}
+{"id":"g-20261117-145100","at":"2026-11-17T14:51:00Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: upstream, general: to the ikb lane","touches":"turns:turn-2026-11-17-upstream-general"}
