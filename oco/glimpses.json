@@ -94,3 +94,4 @@
 {"id":"g-20261117-042916","at":"2026-11-17T04:29:16Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: the Sxmo profile is on the list","touches":"turns:turn-2026-11-17-sent-ok"}
 {"id":"g-20261117-045438","at":"2026-11-17T04:54:38Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: argenv in linux-phone's programs, checked","touches":"turns:turn-2026-11-17-argenv-everywhere"}
 {"id":"g-20261117-045620","at":"2026-11-17T04:56:20Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: argenv for devlab, tone, devlab-health: to orchestration","touches":"turns:turn-2026-11-17-argenv-handover"}
+{"id":"g-20261117-050431","at":"2026-11-17T05:04:31Z","by":"claude","kind":"docs","summary":"a turn entered: argenv as a practice","touches":"turns:turn-2026-11-17-argenv-practice"}
