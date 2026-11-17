@@ -98,3 +98,4 @@
 {"id":"g-20261117-085731","at":"2026-11-17T08:57:31Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: expert agents: researched by a new session","touches":"turns:turn-2026-11-17-expert-agents"}
 {"id":"g-20261117-093621","at":"2026-11-17T09:36:21Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: ideal-agent weighed","touches":"turns:turn-2026-11-17-ideal-agent"}
 {"id":"g-20261117-093948","at":"2026-11-17T09:39:48Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: ideal-agent: a session builds it","touches":"turns:turn-2026-11-17-create-ideal-agent"}
+{"id":"g-20261117-095948","at":"2026-11-17T09:59:48Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: idealkb: researched by a new session","touches":"turns:turn-2026-11-17-idealkb"}
