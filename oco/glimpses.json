@@ -100,3 +100,4 @@
 {"id":"g-20261117-093948","at":"2026-11-17T09:39:48Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: ideal-agent: a session builds it","touches":"turns:turn-2026-11-17-create-ideal-agent"}
 {"id":"g-20261117-095948","at":"2026-11-17T09:59:48Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: idealkb: researched by a new session","touches":"turns:turn-2026-11-17-idealkb"}
 {"id":"g-20261117-100545","at":"2026-11-17T10:05:45Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: a phone keeper role, weighed","touches":"turns:turn-2026-11-17-phone-keeper"}
+{"id":"g-20261117-101102","at":"2026-11-17T10:11:02Z","by":"claude","kind":"docs","summary":"a turn entered: the phone keeper, handed over","touches":"turns:turn-2026-11-17-keeper-handover"}
