@@ -102,3 +102,4 @@
 {"id":"g-20261117-100545","at":"2026-11-17T10:05:45Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: a phone keeper role, weighed","touches":"turns:turn-2026-11-17-phone-keeper"}
 {"id":"g-20261117-101102","at":"2026-11-17T10:11:02Z","by":"claude","kind":"docs","summary":"a turn entered: the phone keeper, handed over","touches":"turns:turn-2026-11-17-keeper-handover"}
 {"id":"g-20261117-101520","at":"2026-11-17T10:15:20Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: idealkb answered in its own session","touches":"turns:turn-2026-11-17-pressed-there"}
+{"id":"g-20261117-101902","at":"2026-11-17T10:19:02Z","by":"claude","kind":"docs","summary":"a turn entered as it was said: the phone queue's order: deep sleep first","touches":"turns:turn-2026-11-17-what-next-on-the-phone"}
