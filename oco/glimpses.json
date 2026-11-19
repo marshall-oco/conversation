@@ -134,3 +134,4 @@
 {"id":"g-20261118-125807","at":"2026-11-18T12:58:07Z","by":"lab-agent-token-path","kind":"docs","summary":"turn: the author accepts the rest of the lab-agent plan","touches":"turns:turn-2026-11-18-lab-agent-timers-and-keep-awake"}
 {"id":"g-20261118-130939","at":"2026-11-18T13:09:39Z","by":"lab-agent-token-path","kind":"docs","summary":"turn: the author chooses no standing root","touches":"turns:turn-2026-11-18-lab-agent-root-no-standing-root"}
 {"id":"g-20261119-000821","at":"2026-11-19T00:08:21Z","by":"ideal-agent-builder.d2219f","kind":"docs","summary":"turn: the author allows a required Python tool, not a dependency","touches":"turns:turn-2026-11-19-python-tools-required-ok"}
+{"id":"g-20261119-010020","at":"2026-11-19T01:00:20Z","by":"ideal-agent-builder.d2219f","kind":"docs","summary":"turn: the author on shell past glue, and Mojo against Rust, Python, C#/F#","touches":"turns:turn-2026-11-19-shell-worse-than-python-mojo"}
